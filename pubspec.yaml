@@ -32,11 +32,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   flutter_bloc: ^7.2.0
-  shared_preferences: any
-  sqflite: any
-  path_provider: any
-  sqflite_common_ffi: any
-  sqflite_common_ffi_web: any
+  http: any
+  cached_network_image: ^3.3.0
 
 dev_dependencies:
   flutter_test:

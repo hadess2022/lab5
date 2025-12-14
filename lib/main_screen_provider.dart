@@ -10,7 +10,7 @@ class MainScreenProvider extends StatelessWidget {
   Widget build (BuildContext context) {
     return BlocProvider<MainScreenCubit>( 
       create: (context) => MainScreenCubit(),
-      child: MainScreen(),
+      child: MainScreen()
     );
   }
 }

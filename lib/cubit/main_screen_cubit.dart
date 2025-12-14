@@ -6,6 +6,7 @@ class MainScreenCubit extends Cubit<MainScreenState>{
 
   bool historical = false;
 
+  // ignore: non_constant_identifier_names
   void GoToHistory()
   {
     historical = !historical;
